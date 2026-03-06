@@ -1,11 +1,15 @@
 <?php 
-$mobil=[
-"Sedan"=>20000000,
-"Pajero"=>500000000,
-
+$biodata=[
+'nama'=>'Medwin Alfredo Silalahi',
+'nim'=>'224510041',
+'kelas'=>'4TI-B',
+'prodi'=>'Teknik Informatika',
+'fakultas'=>'Ilmu Komputer'
 ];
 
-foreach($mobil as $kendaraan){
-    var_dump($kendaraan["Sedan"]);
+foreach($biodata as $key=>$value){
+    echo $key. ' = '.$value."<br>";
+
 }
+
 ?>
